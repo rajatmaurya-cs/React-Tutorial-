@@ -15,10 +15,10 @@ function App() {
     
       {
       img: `https://rukminim2.flixcart.com/image/312/312/xif0q/television/i/m/0/-original-imah9ttkkjmahfs7.jpeg?q=70`,
-      id: 1,
-      name: "Laptop",
+      id: 2,
+      name: "TV",
       Prices: 200000,
-      company: "HP"
+      company: "LG"
     },
 
 
@@ -58,6 +58,9 @@ function App() {
   }
 
   return (
+
+    <>
+    
     <div className='flex flex-col  grid-cols-4 space-y-5 w-full h-[200px] justify-center items-center min-h-screen space-x-5 border border-gray-900'>
     
     
@@ -143,6 +146,7 @@ function App() {
 
 
     </div>
+    </>
   )
 }
 
