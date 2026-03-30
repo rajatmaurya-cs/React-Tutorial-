@@ -5,7 +5,7 @@ const App = () => {
 
   const [news, setnews] = useState([]);
 
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(0);
 
   const API_KEY = '0fa7a28e299d4406820ceb3b26e71995';
 
@@ -67,7 +67,7 @@ const handleback = (e)=>{
 
 
 
-  const itemperpage = 6;
+  const itemperpage = 2;
 
   const lastindex = itemperpage * currentPage
 
